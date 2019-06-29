@@ -3,6 +3,8 @@ import Combine
 public class CancellableBag {
   private var cancellables: [Cancellable] = []
 
+  public init() {}
+
   deinit {
     clear()
   }
